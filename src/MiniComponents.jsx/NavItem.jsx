@@ -1,3 +1,3 @@
 export default function NavItem({ label }) {
-    return <li>{label}</li>;
+    return <li className="liitem">{label}</li>;
 }

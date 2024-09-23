@@ -46,6 +46,26 @@ export const pageData = [
         divclass:"airpods4",
         animateClass:"animate__animated animate__rubberBand",
         subHeading: "Available with active noise cancellation"
+      },
+      {
+        heroImgSrc: "https://www.apple.com/v/home/br/images/promos/carriers/promo_carrier__e0izvxwqosgi_large_2x.jpg",
+        heading: "Carrier Deals at Apple",
+        headImgSrc: "",
+        p1: "",
+        p2: "",
+        divclass:"promos",
+        animateClass:"animate__animated animate__rubberBand",
+        subHeading: "Get up to $1000 in credit on a new iPhone"
+      },
+      {
+        heroImgSrc: "https://www.apple.com/v/home/br/images/promos/apple-card/promo_apple_card__5cm7draujpey_large_2x.jpg",
+        heading: "Apple Card",
+        headImgSrc: "",
+        p1: "",
+        p2: "",
+        divclass:"applecard",
+        animateClass:"animate__animated animate__rubberBand",
+        subHeading: "Get up to 3% Daily CashBack"
       }
   
   ]

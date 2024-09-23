@@ -1,23 +1,22 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-
-header{
+header {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 7vh;
-  background-color: rgba(22, 22, 23, .8);
-  backdrop-filter:saturate(180%) blur(20px);
+  background-color: rgba(22, 22, 23, 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
   position: fixed;
   z-index: 1000;
   top: 0;
 }
-header nav ul{
+header nav ul {
   display: flex;
   list-style: none;
   gap: 2.5rem;
@@ -25,11 +24,11 @@ header nav ul{
   font-size: 14px;
   font-weight: 0;
 }
-header nav ul li:hover{
+header nav ul li:hover {
   cursor: pointer;
 }
 
-.offer-bar{
+.offer-bar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +40,7 @@ header nav ul li:hover{
   position: relative;
   z-index: 1;
 }
-.land-head{
+.land-head {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +50,7 @@ header nav ul li:hover{
   height: 20vh;
   /* border: solid white; */
 }
-.land-head h1{
+.land-head h1 {
   top: -9vh;
   position: absolute;
   z-index: 1;
@@ -64,9 +63,7 @@ header nav ul li:hover{
   text-align: center;
 }
 
-
-
-.iphone16pro{
+.iphone16pro {
   /* background-image: url(https://www.apple.com/v/home/br/images/heroes/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_small.jpg); */
   /* background-size: contain; */
   height: 100vh;
@@ -78,11 +75,11 @@ header nav ul li:hover{
   flex-direction: column;
   top: 10vh;
 }
-.iphone16 img{
+.iphone16 img {
   position: absolute;
   top: -7vh;
 }
-.iphone16{
+.iphone16 {
   position: relative;
   top: 27vh;
   height: 150vh;
@@ -90,10 +87,15 @@ header nav ul li:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(14,21,75);
-background: linear-gradient(180deg, rgba(14,21,75,1) 0%, rgba(192,201,237,1) 97%, rgba(203,209,241,1) 100%);
+  background: rgb(14, 21, 75);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 21, 75, 1) 0%,
+    rgba(192, 201, 237, 1) 97%,
+    rgba(203, 209, 241, 1) 100%
+  );
 }
-.iwatch{
+.iwatch {
   position: relative;
   top: 27vh;
   height: 100vh;
@@ -103,23 +105,23 @@ background: linear-gradient(180deg, rgba(14,21,75,1) 0%, rgba(192,201,237,1) 97%
   align-items: center;
   /* background-color: rgb(245 245 247); */
 }
-.iwatch h1{
+.iwatch h1 {
   color: black;
 }
-.iwatch img{
+.iwatch img {
   width: 100%;
   height: 70vh;
   margin-top: 17vh;
 }
-.int-img{
+.int-img {
   height: auto;
   width: 62vw;
   margin-bottom: 5vh;
 }
-.hero-img{
+.hero-img {
   width: 100vw;
 }
-.buy-btn{
+.buy-btn {
   position: absolute;
   bottom: 12vh;
   padding: 15px 25px;
@@ -128,27 +130,31 @@ background: linear-gradient(180deg, rgba(14,21,75,1) 0%, rgba(192,201,237,1) 97%
   border-radius: 1.5rem;
   border: none;
 }
-.buy-btn:hover{
+.buy-btn:hover {
   cursor: pointer;
 }
-.p1{
+.p1 {
   position: absolute;
   bottom: 7vh;
   color: gray;
 }
-.p2{
+.p2 {
   position: absolute;
   bottom: 3vh;
   color: gray;
 }
-.iphone16 .p1,.p2{
+.iphone16 .p1,
+.p2 {
   color: black;
 }
 
-.iwatch h2{
+.iwatch h2 {
   margin-bottom: 22vh;
 }
-.watch , .airpods4{
+.watch,
+.airpods4,
+.promos,
+.applecard {
   position: relative;
   top: 27vh;
   height: 100vh;
@@ -157,70 +163,104 @@ background: linear-gradient(180deg, rgba(14,21,75,1) 0%, rgba(192,201,237,1) 97%
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   /* border: solid; */
-  
+
   /* justify-content: center; */
 }
-.watch img{
+.watch img {
+  width: 100%;
+  height: 100%;
+}
+.airpods4 img {
+  width: 100%;
+  height: 100%;
+}
+.promos img {
   width: 100%;
   height: 90vh;
 }
-.airpods4 img{
-  width: 100%;
+.applecard img {
+  width: 1200px;
   height: 90vh;
 }
-.airpods4{
+.promos h1,
+.applecard h1 {
+  color: black;
+}
+.airpods4 {
   color: white;
 }
-.land-detail{
+.land-detail {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.watch .land-detail{
+.watch .land-detail,
+.applecard .land-detail {
   position: absolute;
   top: 45vh;
   width: 40vw;
 }
-.watch h2{
+.promos .land-detail {
+  position: absolute;
+  bottom: 0vh;
+  width: 40vw;
+}
+.watch h2 {
   color: white;
   margin-bottom: 18vh;
 }
-.airpods4 h3{
+.applecard h2 {
+  margin-bottom: 18vh;
+}
+.airpods4 h3 {
   color: white;
 }
-.land-small-cont{
+.land-small-cont {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.airpods4 .land-head h1{
-margin-top: 55vh;
+.airpods4 .land-head h1
+ {
+  margin-top: 55vh;
+  width: 100%;
 }
-.airpods4 .land-head h2{
+.promos .land-head h1{
+  margin-top: 45vh;
+  width: 100%;
+}
+.airpods4 .land-head h2,
+.promos .land-head h2 {
   margin-top: 92vh;
-  }
+}
+.vert-carousel {
+  position: relative;
+  top: 33vh;
+}
 .footer-container {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   padding: 2rem;
   flex-wrap: nowrap;
   background-color: #f9f9f9;
   color: #666;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
   font-size: 14px;
   border-top: 1px solid #e0e0e0;
-  
 }
-.foot-cont{
+.foot-cont {
   position: relative;
   top: 27vh;
   background-color: #f9f9f9;
   color: #666;
   padding: 2rem;
 }
-.foot-cont p{
+.foot-cont p {
   font-size: 14px;
   margin-top: 1rem;
 }
@@ -246,4 +286,141 @@ margin-top: 55vh;
 .footer-section ul li:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  top: 27vh;
+}
+
+.carousel-container img {
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.curr {
+  position: relative;
+  z-index: 2;
+}
+
+.prev {
+  opacity: 0.7;
+  position: relative;
+  margin-right: 1rem;
+}
+
+.next {
+  opacity: 0.7;
+  position: relative;
+  margin-left: 1rem;
+}
+.vert-carousel img{
+  height: 40vh;
+  width: 30vw;
+}
+@media (max-width: 768px) {
+  header {
+    width: 100vw;
+  }
+  .liitem {
+    display: none;
+  }
+  .foot-cont {
+    width: 100vw;
+    top: -27vh;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+  }
+  .iphone16pro {
+    height: 80vh;
+
+    top: 0vh;
+  }
+  .iphone16pro img {
+    height: 100%;
+    width: 100vw;
+  }
+  .offer-bar {
+    padding: 1rem;
+    font-size: 12px;
+  }
+  .iphone16 {
+    top: 1vh;
+    height: 100vh;
+  }
+  .iphone16 img {
+    top: 10vh;
+  }
+  .iphone16 .land-detail {
+    position: absolute;
+    bottom: 30vh;
+    width: 100%;
+  }
+  .iwatch {
+    top: 0;
+  }
+  .iwatch img {
+    width: 100%;
+    height: 30vh;
+    margin-top: 20vh;
+  }
+
+  .iwatch .land-detail {
+    position: absolute;
+    bottom: 25vh;
+    width: 100%;
+  }
+  .land-small-cont {
+    flex-direction: column;
+  }
+  .watch,
+  .airpods4 {
+    top: -15vh;
+    width: 100%;
+    height: 80vh;
+  }
+  .watch .land-head h1,
+  .promos .land-head h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .watch .land-detail {
+    top: 40vh;
+  }
+  .watch h2 {
+    margin-bottom: 23vh;
+  }
+  .airpods4 .land-head h1 {
+    margin-top: 45vh;
+    text-align: center;
+    width: 100%;
+  }
+  .airpods4 .land-head h2 {
+    margin-top: 92vh;
+    text-align: center;
+    width: 100%;
+  }
+  .promos,
+  .applecard {
+    width: 100%;
+    top: -18vh;
+  }
+
+  .applecard .land-head h1 {
+    width: 100%;
+  }
+  .carousel-container {
+    top: -27vh;
+    height: 70vh;
+  }
+  .carousel-container img {
+    object-fit: contain;
+  }
 }
