@@ -1,0 +1,249 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 7vh;
+  background-color: rgba(22, 22, 23, .8);
+  backdrop-filter:saturate(180%) blur(20px);
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+header nav ul{
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+  color: white;
+  font-size: 14px;
+  font-weight: 0;
+}
+header nav ul li:hover{
+  cursor: pointer;
+}
+
+.offer-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  width: 100%;
+  background-color: #1d1d1f;
+  color: white;
+  top: 7vh;
+  position: relative;
+  z-index: 1;
+}
+.land-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20vh;
+  flex-direction: column;
+  height: 20vh;
+  /* border: solid white; */
+}
+.land-head h1{
+  top: -9vh;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1.07143;
+  font-weight: 600;
+  width: 30vw;
+  /* width: 50vw; */
+  text-align: center;
+}
+
+
+
+.iphone16pro{
+  /* background-image: url(https://www.apple.com/v/home/br/images/heroes/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_small.jpg); */
+  /* background-size: contain; */
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 10vh;
+}
+.iphone16 img{
+  position: absolute;
+  top: -7vh;
+}
+.iphone16{
+  position: relative;
+  top: 27vh;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(14,21,75);
+background: linear-gradient(180deg, rgba(14,21,75,1) 0%, rgba(192,201,237,1) 97%, rgba(203,209,241,1) 100%);
+}
+.iwatch{
+  position: relative;
+  top: 27vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* background-color: rgb(245 245 247); */
+}
+.iwatch h1{
+  color: black;
+}
+.iwatch img{
+  width: 100%;
+  height: 70vh;
+  margin-top: 17vh;
+}
+.int-img{
+  height: auto;
+  width: 62vw;
+  margin-bottom: 5vh;
+}
+.hero-img{
+  width: 100vw;
+}
+.buy-btn{
+  position: absolute;
+  bottom: 12vh;
+  padding: 15px 25px;
+  background-color: rgb(62, 62, 234);
+  color: white;
+  border-radius: 1.5rem;
+  border: none;
+}
+.buy-btn:hover{
+  cursor: pointer;
+}
+.p1{
+  position: absolute;
+  bottom: 7vh;
+  color: gray;
+}
+.p2{
+  position: absolute;
+  bottom: 3vh;
+  color: gray;
+}
+.iphone16 .p1,.p2{
+  color: black;
+}
+
+.iwatch h2{
+  margin-bottom: 22vh;
+}
+.watch , .airpods4{
+  position: relative;
+  top: 27vh;
+  height: 100vh;
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: solid; */
+  
+  /* justify-content: center; */
+}
+.watch img{
+  width: 100%;
+  height: 90vh;
+}
+.airpods4 img{
+  width: 100%;
+  height: 90vh;
+}
+.airpods4{
+  color: white;
+}
+.land-detail{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watch .land-detail{
+  position: absolute;
+  top: 45vh;
+  width: 40vw;
+}
+.watch h2{
+  color: white;
+  margin-bottom: 18vh;
+}
+.airpods4 h3{
+  color: white;
+}
+.land-small-cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.airpods4 .land-head h1{
+margin-top: 55vh;
+}
+.airpods4 .land-head h2{
+  margin-top: 92vh;
+  }
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  flex-wrap: nowrap;
+  background-color: #f9f9f9;
+  color: #666;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #e0e0e0;
+  
+}
+.foot-cont{
+  position: relative;
+  top: 27vh;
+  background-color: #f9f9f9;
+  color: #666;
+  padding: 2rem;
+}
+.foot-cont p{
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.footer-section {
+  width: 23%;
+}
+
+.footer-section h4 {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  line-height: 1.8;
+}
+
+.footer-section ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
