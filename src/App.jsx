@@ -9,6 +9,14 @@ import Vertical from "./VerticalCarousel";
 import Store from "./HedaerSections.jsx/Store";
 import { BrowserRouter  , Routes, Route } from "react-router-dom";
 import Mac from "./HedaerSections.jsx/Mac";
+import Ipad from "./HedaerSections.jsx/Ipad";
+import Iphone from "./HedaerSections.jsx/Iphone";
+import IWatch from "./HedaerSections.jsx/Iwatch";
+import Airpods from "./HedaerSections.jsx/Airpods";
+import TvHome from "./HedaerSections.jsx/TvHome";
+import Entertainment from "./HedaerSections.jsx/Entertainment";
+import Support from "./HedaerSections.jsx/Support";
+
 
 
 export default function App() {
@@ -19,7 +27,9 @@ export default function App() {
    <Routes>
     <Route path="/" element={<>
       <OfferBar />
-     
+      <video style={{ width: '100%', height: 'auto' }} autoPlay muted loop >
+                <source src='public/large_2x.mp4'/>
+            </video>
      <LandingPage
        heroImgSrc={pageData[0].heroImgSrc}
        heading={pageData[0].heading}
@@ -90,6 +100,14 @@ export default function App() {
     </>}/>
     <Route path={'/Store'} element={<Store/>}/>
     <Route path={'/Mac'} element={<Mac/>}/>
+    <Route path={'/iPad'} element={<Ipad/>}/>
+    <Route path={'/iPhone'} element={<Iphone/>}/>
+    <Route path={'/Watch'} element={<IWatch/>}/>
+    <Route path={'/AirPods'} element={<Airpods/>}/>
+    <Route path={'/TvHome'} element={<TvHome/>}/>
+    <Route path={'/Entertainment'} element={<Entertainment/>}/>
+    <Route path={'/Support'} element={<Support/>}/>
+    
    </Routes>
    <Footer sections={sections} />
    </BrowserRouter>

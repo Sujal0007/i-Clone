@@ -10,9 +10,24 @@ export default function NavItem({ label, content  }) {
     const handleClick = ()=>{
         if(label ==='Store'){
           navigate('Store')
+          setIsHovered(false);
         }else if(label === 'Mac'){
           navigate('Mac')
-        }
+        }else if(label === 'iPad'){
+            navigate('iPad')
+          }else if(label === 'iPhone'){
+            navigate('Iphone')
+          }else if(label === 'Watch'){
+            navigate('Watch')
+          }else if(label === 'AirPods'){
+            navigate('AirPods')
+          }else if(label === 'TV & Home'){
+            navigate('TvHome')
+          }else if(label === 'Entertainment'){
+            navigate('Entertainment')
+          }else if(label === 'Support'){
+            navigate('Support')
+          }
     }
 
   return (

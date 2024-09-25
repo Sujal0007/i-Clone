@@ -365,14 +365,65 @@ nav {
   margin-left: 10vw;
 }
 .store{
-  margin-top: 8vh;
+  margin-top: 7vh;
   /* background-color: #1d1d1f; */
 }
 .store img{
   width: 27vw;
-  height: 80vh;
+  height: 100vh;
   margin: 2rem;
   border-radius: 1rem;
+}
+.store h1{
+  font-size: 4rem;
+  margin-left: 2rem;
+  font-weight: 700;
+  /* color: gray; */
+}
+.store h1 span{
+  color: rgb(252, 81, 81);
+}
+.store-img{
+  display: flex;
+  position: relative;
+  top: 10vh;
+}
+.airpods-head img{
+  width: 100vw;
+  height: auto;
+  margin-top: 5vh;
+}
+.airpods-head h1{
+  font-size: 6rem;
+ text-align: center;
+  font-weight: 700;
+}
+.tvhome{
+  margin-top: 8vh;
+}
+.tvhome h1{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.tvhome img{
+  width: 100vw;
+}
+.tvhome h3{
+  font-size: 1.2rem;
+  width: 100vw;
+  text-align: center;
+}
+.entertain{
+  margin-top: 10vh;
+}
+.support{
+  margin-top: 10vh;
+}
+.support h1{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -387,14 +438,15 @@ nav {
   }
   .nav-items.show{
     background-color: #1d1d1f;
-    width: 100vw;
-    height: 100vh;
+    width: 70vw;
+    height: 50vh;
     position: absolute;
     top: 7vh;
+    z-index: 1000;
   }
   .foot-cont {
     width: 100vw;
-    top: -27vh;
+    top: -47vh;
   }
   .footer-container {
     flex-wrap: wrap;
@@ -478,10 +530,24 @@ nav {
     width: 100%;
   }
   .carousel-container {
-    top: -27vh;
+    top: -37vh;
     height: 70vh;
   }
   .carousel-container img {
     object-fit: contain;
+  }
+  .vert-carousel{
+    display: none;
+  }
+  .store-img{
+    flex-direction: column;
+  }
+  .store img{
+    width: 90vw;
+    height: 90vh;
+  }
+  .tvhome img{
+    width: 100vw;
+    height: 100vh;
   }
 }
