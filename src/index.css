@@ -3,8 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-header {
+nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,18 +15,39 @@ header {
   z-index: 1000;
   top: 0;
 }
-header nav ul {
+
+.nav-list {
   display: flex;
   list-style: none;
   gap: 2.5rem;
   color: white;
   font-size: 14px;
   font-weight: 0;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
-header nav ul li:hover {
+.nav-list li:hover{
   cursor: pointer;
 }
 
+.nav-items {
+  display: flex;
+  gap: 2.5rem;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.liitem{
+  height:7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
 .offer-bar {
   display: flex;
   justify-content: center;
@@ -61,6 +81,9 @@ header nav ul li:hover {
   width: 30vw;
   /* width: 50vw; */
   text-align: center;
+}
+.animate__fadeIn{
+  animation-duration: 0.5s;
 }
 
 .iphone16pro {
@@ -248,8 +271,6 @@ header nav ul li:hover {
   flex-wrap: nowrap;
   background-color: #f9f9f9;
   color: #666;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif;
   font-size: 14px;
   border-top: 1px solid #e0e0e0;
 }
@@ -324,12 +345,52 @@ header nav ul li:hover {
   height: 40vh;
   width: 30vw;
 }
+.hover-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(47, 46, 46);
+  color: rgb(250, 248, 248);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 10;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  gap: 10vw;
+}
+.hover-content div{
+  margin-top: 5vh;
+  margin-left: 10vw;
+}
+.store{
+  margin-top: 8vh;
+  /* background-color: #1d1d1f; */
+}
+.store img{
+  width: 27vw;
+  height: 80vh;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
 @media (max-width: 768px) {
-  header {
-    width: 100vw;
+  nav{
+    width: 100%;
   }
-  .liitem {
+  .liitem{
     display: none;
+  }
+  .hamburger{
+    display: block;
+  }
+  .nav-items.show{
+    background-color: #1d1d1f;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 7vh;
   }
   .foot-cont {
     width: 100vw;

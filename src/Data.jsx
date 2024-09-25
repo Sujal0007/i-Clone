@@ -136,3 +136,46 @@ export const pageData = [
     }
   ];
   
+
+  export const navItems = [
+    { label: "Store", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    } },
+    { label: "Mac", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    }},
+     { label: "iPad", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    } },
+    { label: "iPhone", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    } },
+    { label: "Watch", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    } },
+    { label: "AirPods", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    } },
+    { label: "TV & Home", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    } },
+    { label: "Entertainment", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    } },
+    { label: "Accessories",content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    } },
+    { label: "Support",content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
+      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    } },
+  ];
