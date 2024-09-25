@@ -444,8 +444,8 @@ nav {
   }
   .nav-items.show{
     background-color: #1d1d1f;
-    width: 70vw;
-    height: 50vh;
+    width: 100vw;
+    height: 60vh;
     position: absolute;
     top: 7vh;
     z-index: 1000;
@@ -458,7 +458,7 @@ nav {
     flex-wrap: wrap;
   }
   .iphone16pro {
-    height: 80vh;
+    height: 60vh;
 
     top: 0vh;
   }
@@ -472,7 +472,7 @@ nav {
   }
   .iphone16 {
     top: 1vh;
-    height: 100vh;
+    height: 90vh;
   }
   .iphone16 img {
     top: 10vh;
@@ -484,6 +484,7 @@ nav {
   }
   .iwatch {
     top: 0;
+   
   }
   .iwatch img {
     width: 100%;

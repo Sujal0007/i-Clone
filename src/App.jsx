@@ -29,7 +29,7 @@ export default function App() {
       <OfferBar />
       <video style={{ width: '100%', height: 'auto' }} autoPlay muted loop >
                 <source src='https://www.apple.com/105/media/ww/iphone/family/2024/cf19f185-dd7e-4350-97ff-e44860713b54/anim/welcome/large_2x.mp4'/>
-      </video>
+            </video>
      <LandingPage
        heroImgSrc={pageData[0].heroImgSrc}
        heading={pageData[0].heading}
