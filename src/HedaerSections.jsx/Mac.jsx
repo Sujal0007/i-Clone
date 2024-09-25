@@ -9,7 +9,7 @@ export default function Mac() {
 
     return (
         <ProductDetails
-            videoSrc='public/largemac_2x.mp4' 
+            videoSrc='https://www.apple.com/105/media/us/mac/family/2024/60fc0159-4236-4a03-8534-f5ba07e538c5/anim/welcome/large_2x.mp4' 
             title="Get To Know Mac." 
             images={macImages} 
         />

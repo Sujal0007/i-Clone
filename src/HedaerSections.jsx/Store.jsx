@@ -8,7 +8,7 @@ export default function Store(){
             </div>
             
         <video style={{ width: '100%', height: 'auto' }} autoPlay muted loop >
-                <source src='public/large_2x.mp4'/>
+                <source src='https://www.apple.com/105/media/ww/iphone/family/2024/cf19f185-dd7e-4350-97ff-e44860713b54/anim/welcome/large_2x.mp4'/>
             </video>
             <div className="store-img">
         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-16-pro-202409_GEO_US?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1726165763260" alt="" />
