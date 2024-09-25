@@ -138,44 +138,44 @@ export const pageData = [
   
 
   export const navItems = [
-    { label: "Store", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    { label: "Store", content: {listOne:['Shop the Latest', 'Mac', 'iPad','iPhone','Apple Watch','Apple Vision Pro', 'Accessories'] , 
+      listTwo:['Find a store' , 'Order Status', 'Apple Trade In', 'Financing', 'College Student Offer'] , 
+      listThree:['Certified Refurbished','Education','Business','Veterans and Military','Government']
     } },
-    { label: "Mac", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    { label: "Mac", content: {listOne: ['Explore All Mac', 'iPad Pro', 'Macbook Air', 'Macbook Pro' , 'iMac', 'Mac Mini'] , 
+      listTwo:['Shop Mac','Help me Choose', 'Mac Accessories', 'Apple Trade In', 'Financing', 'College Student Offer'] , 
+      listThree:['iMac Support','AppleCare+ for iMac','iMac 18','Apple Intelligence','Apps by Apple','iCloud+','Education']
     }},
-     { label: "iPad", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+     { label: "iPad", content: {listOne: ['Explore All iPad','iPad Pro' , 'iPad Air','iPad','iPad mini' ,'Apple Pencil','Keyboards'] , 
+      listTwo:['shop iPad' , 'iPad Accessories', 'Apple Trade In', 'Financing', 'College Student Offer'] , 
+      listThree:['iPad Support','AppleCare+ for iPad','iPadOS 18','Education']
     } },
-    { label: "iPhone", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    { label: "iPhone", content: {listOne: ['Explore All iPhone','iPhone 16 Pro' , 'iPhone 16' , 'iPhone 15 Pro','iPhone 16' ,'iPhone 14','iPhone SE'] , 
+      listTwo:['shop iPhone' , 'iPhone Accessories', 'Apple Trade In', 'Financing', 'College Student Offer'] , 
+      listThree:['iPhone Support','AppleCare+ for iPhone','iPhone 18','Education']
     } },
-    { label: "Watch", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    { label: "Watch", content: {listOne: ['Explore All Watches','Apple Watch Series 10' , 'Apple Watch Ultra 2' , 'Apple Watch SE','Apple Watch Nike' ,'Apple Watch Hermes','Apple Watch Studio'] , 
+      listTwo:['shop Apple Watch' , 'Apple Watch Accessories', 'Apple Trade In', 'Financing', 'College Student Offer'] , 
+      listThree:['Apple Watch Support','AppleCare+ for Apple Watch','Apple Watch','Education']
     } },
-    { label: "AirPods", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    { label: "AirPods", content:  {listOne:['Shop the Latest', 'Mac', 'iPad','iPhone','Apple Watch','Apple Vision Pro', 'Accessories'] , 
+      listTwo:['Find a store' , 'Order Status', 'Apple Trade In', 'Financing', 'College Student Offer'] , 
+      listThree:['Certified Refurbished','Education','Business','Veterans and Military','Government']
     } },
-    { label: "TV & Home", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    { label: "TV & Home", content: {listOne:['Explore TV & Home' , 'Apple Tv 4k', 'HomePod', 'HomePod mini'] , 
+      listTwo:['Shop Apple Tv 4k', 'Shop HomePod', 'Shop HomePod mini'] , 
+      listThree:['Apple Tv Support' , 'AppleCare+','Applt TV+']
     } },
-    { label: "Entertainment", content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    { label: "Entertainment", content: {listOne:['Explore Entertainment' , 'Apple Tv 4k', 'Apple Music Support', 'Apple One','Apple TV+','Apple Music','Apple Arcade'] , 
+      listTwo:['Shop Apple Tv 4k', 'Shop HomePod', 'Shop HomePod mini'] , 
+      listThree:['Apple Tv Support' , 'AppleCare+','Applt TV+']
     } },
-    { label: "Accessories",content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    { label: "Accessories",content: {listOne:[ 'Apple Vision', 'Apple Trade In', 'Financing', 'College Student Offer'] , 
+      listTwo:['Apple' , "Iwatch" , "iphone"] , 
+      listThree:['Vision Pro' , 'Apple Vision', 'Apple Trade In', 'Financing', 'College  Offer']
     } },
-    { label: "Support",content: {listOne:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listTwo:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ] , 
-      listThree:["item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ,"item 1" ]
+    { label: "Support",content: {listOne:["Support" , "Iphone" ,"Mac" , "iPad"] , 
+      listTwo:["Community Guidelines" ] , 
+      listThree:["Contact" , "Feedback" ]
     } },
   ];

@@ -5,7 +5,6 @@ import LandingPage from "./LandingPage";
 import { pageData, sections } from "./Data";
 import Footer from "./Footer";
 import Carousel from "./Carousel";
-import Vertical from "./VerticalCarousel";
 import Store from "./HedaerSections.jsx/Store";
 import { BrowserRouter  , Routes, Route } from "react-router-dom";
 import Mac from "./HedaerSections.jsx/Mac";
@@ -16,6 +15,7 @@ import Airpods from "./HedaerSections.jsx/Airpods";
 import TvHome from "./HedaerSections.jsx/TvHome";
 import Entertainment from "./HedaerSections.jsx/Entertainment";
 import Support from "./HedaerSections.jsx/Support";
+import VerticalCarousel from "./Verticalcarousel.jsx"
 
 
 
@@ -29,7 +29,7 @@ export default function App() {
       <OfferBar />
       <video style={{ width: '100%', height: 'auto' }} autoPlay muted loop >
                 <source src='public/large_2x.mp4'/>
-            </video>
+      </video>
      <LandingPage
        heroImgSrc={pageData[0].heroImgSrc}
        heading={pageData[0].heading}
@@ -96,7 +96,7 @@ export default function App() {
        />
      </div>
      <Carousel/>
-     <Vertical/>
+     <VerticalCarousel/>
     </>}/>
     <Route path={'/Store'} element={<Store/>}/>
     <Route path={'/Mac'} element={<Mac/>}/>
