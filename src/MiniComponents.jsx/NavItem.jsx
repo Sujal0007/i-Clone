@@ -13,21 +13,32 @@ export default function NavItem({ label, content  }) {
           setIsHovered(false);
         }else if(label === 'Mac'){
           navigate('Mac')
+          setIsHovered(false);
         }else if(label === 'iPad'){
             navigate('iPad')
+            setIsHovered(false);
           }else if(label === 'iPhone'){
             navigate('Iphone')
+            setIsHovered(false);
           }else if(label === 'Watch'){
             navigate('Watch')
+            setIsHovered(false);
           }else if(label === 'AirPods'){
             navigate('AirPods')
+            setIsHovered(false);
           }else if(label === 'TV & Home'){
             navigate('TvHome')
+            setIsHovered(false);
           }else if(label === 'Entertainment'){
             navigate('Entertainment')
+            setIsHovered(false);
           }else if(label === 'Support'){
             navigate('Support')
+            setIsHovered(false);
           }
+    }
+    const handleHomeClick = ()=>{
+        navigate("/")
     }
 
   return (
