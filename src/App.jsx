@@ -16,6 +16,7 @@ import TvHome from "./HedaerSections.jsx/TvHome";
 import Entertainment from "./HedaerSections.jsx/Entertainment";
 import Support from "./HedaerSections.jsx/Support";
 import VerticalCarousel from "./Verticalcarousel.jsx"
+import { HoverMenuProvider } from "./MenuContext.jsx";
 
 
 
@@ -23,7 +24,9 @@ export default function App() {
   return (
     <>
    <BrowserRouter>
-   <Header />
+  <HoverMenuProvider>
+  <Header />
+  </HoverMenuProvider>
    <Routes>
     <Route path="/" element={<>
       <OfferBar />

@@ -458,7 +458,10 @@ nav {
   }
   .foot-cont {
     width: 100vw;
-    top: -47vh;
+    top: 0vh;
+  }
+  .support{
+    height: 50vh;
   }
   .footer-container {
     flex-wrap: wrap;
@@ -552,8 +555,10 @@ nav {
   .vert-carousel{
     display: none;
   }
+
   .store-img{
     flex-direction: column;
+    margin-right: 20vw;
   }
   .store img{
     width: 90vw;
